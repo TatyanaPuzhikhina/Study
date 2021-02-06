@@ -34,21 +34,22 @@ int count_of_column = 3; //Переменная отображает кол-во
 };
 
 //Задание 5: Создать объединение и структуру с битовыми флагами указывающими какого типа значение в данный момент содержится в объединении
-struct complex {
-union var{
-int isInt;
-char c;
-float f;
-};
-int isInt = 1;
-int isFloat = 0;
-int isChar = 0;
+struct {
+//union  {int isInt;
+  //char c;
+  //float f;
+  //} cod;
+ int isInt : 1;
+ int isFloat : 0;
+//int isChar : 0;
 //char isInt = 0;
 //char isFloat = 0;
 //char isChar = 1;
 //float isInt = 0;
 //float isFloat = 1;
 //float isChar = 0;
-};
-std::cout  << union isInt << std:: endl;
+}; 
+
+complex.isInt = 1
+std::cout  << complex.isInt << std:: endl;
 }
