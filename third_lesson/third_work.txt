@@ -1,6 +1,0 @@
-int main() {
-int q = 123
-int w = 132
-int r = 23
-int u = 432
-}
