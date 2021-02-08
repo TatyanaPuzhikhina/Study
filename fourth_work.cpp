@@ -38,7 +38,7 @@ else
 //Программа, которая определяет является ли год високосным
 int year = 0;
 int our_year = 2021;
-do {year++; 
+ do {year++; 
   if (year % 4 == 0)
  { 
     std::cout << year << std :: endl;}  
