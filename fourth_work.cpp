@@ -39,7 +39,7 @@ else
 int year = 0;
 int our_year = 2021;
  do {year++; 
-  if (year % 4 == 0)
+  if (year % 4 == 0 && !(year == (year + 100)) || year == (year + 400))
  { 
     std::cout << year << std :: endl;}  
  }
